@@ -1,0 +1,302 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.21.2-5419-
+#   - file written: Mon Apr 28 14:19:27 2025
+#
+#   Ligand name: "2-[(4~{Z})-4-[(4-hydroxyphenyl)methylidene]-2-[(~{E})-2-(1~{H}-imidazol-4-yl)ethenyl]-5-oxidanylidene-imidazol-1-yl]ethanoic acid"
+#   Random seed: 3628800
+#   SMILES string: OC(=O)CN1C(=O)C(=C/c2ccc(O)cc2)/N=C1/C=C/c3c[nH]cn3
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+RC7        RC7 '"2-[(4~{Z})-4-[(4-hydroxyphenyl)methylidene]-2-[(~{E})-2-(1~{H}-imidazol-4-yl)ethenyl]-5-oxidanylidene-imidazol-1-yl]ethanoic acid"' ligand 38 25 .
+#
+data_comp_RC7
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+RC7         C1     C   CR5    0    .      -0.6554   -0.9209   -0.7901
+RC7         N2     N   N      0    .       0.7296   -0.8716   -0.8137
+RC7         CA2    C   CR5    0    .       1.3148   -0.7215    0.5186
+RC7         C2     C   CR5    0    .      -0.0186   -0.6819    1.4282
+RC7         O2     O   O      0    .      -0.0660   -0.5688    2.6127
+RC7         N3     N   NR5    0    .      -1.1776   -0.8145    0.5037
+RC7         CA3    C   CH2    0    .      -2.5989   -0.8457    0.8800
+RC7         C3     C   C      0    .      -3.3224    0.3579    0.2523
+RC7         O3     O   O      0    .      -2.6572    1.3422   -0.1715
+RC7         CA1    C   C1     0    .      -1.4674   -0.4019   -1.9959
+RC7         CB2    C   C1     0    .       1.5905   -1.0854    1.7812
+RC7         CG2    C   CR6    0    .       1.5923    0.1393    2.7295
+RC7         CD1    C   CR16   0    .       1.4658   -0.0474    4.1027
+RC7         CD2    C   CR16   0    .       1.8573    1.4074    2.2228
+RC7         CE1    C   CR16   0    .       1.6042    1.0329    4.9673
+RC7         CE2    C   CR16   0    .       1.9955    2.4873    3.0881
+RC7         CZ     C   CR6    0    .       1.8690    2.2999    4.4600
+RC7         OH     O   OH1    0    .       1.9752    3.3983    5.3324
+RC7         CB1    C   C1     0    .      -0.7041   -0.2146   -3.0755
+RC7         CG1    C   CR5    0    .      -0.2343   -0.5731   -4.5032
+RC7         ND1    N   N      0    .       0.9171   -0.2343   -5.0462
+RC7         CD3    C   CR15   0    .      -0.9788   -1.2053   -5.4567
+RC7         NE1    N   NR15   0    .      -0.2707   -1.2427   -6.5667
+RC7         CE3    C   CR15   0    .       0.9095   -0.6434   -6.3277
+RC7         OXT    O   OC    -1    .      -4.5845    0.3849    0.2125
+RC7        HA31    H   HCH2   0    .      -2.6884   -0.7978    1.9642
+RC7        HA32    H   HCH2   0    .      -3.0498   -1.7691    0.5191
+RC7         HA1    H   H      0    .      -2.0515   -1.3180   -2.0594
+RC7        HB21    H   H      0    .       0.6882   -1.2256    2.3515
+RC7         HD1    H   HCR6   0    .       1.2585   -1.0396    4.5003
+RC7         HD2    H   HCR6   0    .       1.9563    1.5544    1.1500
+RC7         HE1    H   HCR6   0    .       1.5360    0.8809    6.0431
+RC7         HE2    H   HCR6   0    .       2.2029    3.4793    2.6913
+RC7         HOH    H   HOH1   0    .       2.8641    3.4640    5.6503
+RC7        HB11    H   H      0    .      -0.9784   -1.2307   -3.3482
+RC7         HD3    H   HCR5   0    .      -1.9778   -1.6139   -5.3214
+RC7        HNE1    H   HNR5   0    .      -0.5616   -1.6482   -7.4401
+RC7         HE3    H   HCR5   0    .       1.7167   -0.5125   -7.0452
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+RC7   OH      CZ    single        1.407 0.020
+RC7   CZ      CE1   aromatic      1.390 0.020
+RC7   CZ      CE2   aromatic      1.391 0.020
+RC7   CE1     CD1   aromatic      1.391 0.020
+RC7   CE2     CD2   aromatic      1.391 0.020
+RC7   CD1     CG2   aromatic      1.392 0.020
+RC7   CD2     CG2   aromatic      1.391 0.020
+RC7   CG2     CB2   single        1.549 0.020
+RC7   CB2     CA2   double        1.343 0.020
+RC7   CA2     N2    single        1.463 0.020
+RC7   CA2     C2    single        1.615 0.020
+RC7   N2      C1    double        1.386 0.020
+RC7   CD3     CG1   aromatic      1.365 0.020
+RC7   CD3     NE1   aromatic      1.317 0.020
+RC7   CB1     CG1   single        1.545 0.020
+RC7   CB1     CA1   double        1.335 0.020
+RC7   C2      O2    double        1.191 0.020
+RC7   C2      N3    single        1.488 0.020
+RC7   C1      CA1   single        1.544 0.020
+RC7   C1      N3    single        1.399 0.020
+RC7   CG1     ND1   aromatic      1.317 0.020
+RC7   NE1     CE3   aromatic      1.345 0.020
+RC7   N3      CA3   single        1.471 0.020
+RC7   ND1     CE3   aromatic      1.345 0.020
+RC7   CA3     C3    single        1.538 0.020
+RC7   C3      O3    deloc         1.261 0.020
+RC7   C3      OXT   deloc         1.263 0.020
+RC7   CA3    HA31   single        1.089 0.020
+RC7   CA3    HA32   single        1.089 0.020
+RC7   CA1     HA1   single        1.088 0.020
+RC7   CB2    HB21   single        1.077 0.020
+RC7   CD1     HD1   single        1.089 0.020
+RC7   CD2     HD2   single        1.087 0.020
+RC7   CE1     HE1   single        1.089 0.020
+RC7   CE2     HE2   single        1.088 0.020
+RC7   OH      HOH   single        0.946 0.020
+RC7   CB1    HB11   single        1.087 0.020
+RC7   CD3     HD3   single        1.088 0.020
+RC7   NE1    HNE1   single        1.006 0.020
+RC7   CE3     HE3   single        1.088 0.020
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+RC7   CA1     C1      N3          120.03 3.000
+RC7   N3      C1      N2          112.70 3.000
+RC7   CA1     C1      N2          120.02 3.000
+RC7   CA2     N2      C1          112.82 3.000
+RC7   CB2     CA2     C2           69.30 3.000
+RC7   C2      CA2     N2          100.68 3.000
+RC7   CB2     CA2     N2          155.62 3.000
+RC7   N3      C2      O2          126.53 3.000
+RC7   N3      C2      CA2         106.92 3.000
+RC7   O2      C2      CA2         126.55 3.000
+RC7   CA3     N3      C2          126.55 3.000
+RC7   CA3     N3      C1          126.56 3.000
+RC7   C2      N3      C1          106.88 3.000
+RC7  HA32     CA3    HA31         109.46 3.000
+RC7  HA32     CA3     C3          109.47 3.000
+RC7  HA31     CA3     C3          109.47 3.000
+RC7  HA32     CA3     N3          109.47 3.000
+RC7  HA31     CA3     N3          109.47 3.000
+RC7   C3      CA3     N3          109.48 3.000
+RC7   OXT     C3      O3          119.98 3.000
+RC7   OXT     C3      CA3         119.97 3.000
+RC7   O3      C3      CA3         119.98 3.000
+RC7   HA1     CA1     CB1         112.19 3.000
+RC7   HA1     CA1     C1           92.57 3.000
+RC7   CB1     CA1     C1          112.21 3.000
+RC7  HB21     CB2     CG2          77.27 3.000
+RC7  HB21     CB2     CA2         111.18 3.000
+RC7   CG2     CB2     CA2         111.20 3.000
+RC7   CD2     CG2     CD1         119.94 3.000
+RC7   CD2     CG2     CB2         119.87 3.000
+RC7   CD1     CG2     CB2         119.86 3.000
+RC7   HD1     CD1     CE1         119.99 3.000
+RC7   HD1     CD1     CG2         120.00 3.000
+RC7   CE1     CD1     CG2         120.01 3.000
+RC7   HD2     CD2     CE2         119.99 3.000
+RC7   HD2     CD2     CG2         120.00 3.000
+RC7   CE2     CD2     CG2         120.01 3.000
+RC7   HE1     CE1     CZ          119.98 3.000
+RC7   HE1     CE1     CD1         119.98 3.000
+RC7   CZ      CE1     CD1         120.01 3.000
+RC7   HE2     CE2     CZ          119.99 3.000
+RC7   HE2     CE2     CD2         119.99 3.000
+RC7   CZ      CE2     CD2         120.01 3.000
+RC7   OH      CZ      CE2         119.99 3.000
+RC7   CE2     CZ      CE1         120.01 3.000
+RC7   OH      CZ      CE1         119.98 3.000
+RC7   HOH     OH      CZ          109.48 3.000
+RC7  HB11     CB1     CG1          68.17 3.000
+RC7  HB11     CB1     CA1          85.84 3.000
+RC7   CG1     CB1     CA1         152.65 3.000
+RC7   CD3     CG1     ND1         107.94 3.000
+RC7   ND1     CG1     CB1         125.94 3.000
+RC7   CD3     CG1     CB1         125.95 3.000
+RC7   CE3     ND1     CG1         108.03 3.000
+RC7   HD3     CD3     NE1         126.01 3.000
+RC7   HD3     CD3     CG1         126.02 3.000
+RC7   NE1     CD3     CG1         107.97 3.000
+RC7  HNE1     NE1     CE3         125.99 3.000
+RC7  HNE1     NE1     CD3         125.99 3.000
+RC7   CE3     NE1     CD3         108.02 3.000
+RC7   HE3     CE3     NE1         125.98 3.000
+RC7   HE3     CE3     ND1         125.98 3.000
+RC7   NE1     CE3     ND1         108.05 3.000
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+RC7 CONST_01       CZ      CE1     CD1     CG2          -0.00   0.0 0
+RC7 CONST_02       CZ      CE2     CD2     CG2          -0.00   0.0 0
+RC7 CONST_03       CE2     CZ      CE1     CD1           0.00   0.0 0
+RC7 CONST_04       CE2     CD2     CG2     CD1           0.00   0.0 0
+RC7 CONST_05       CE1     CZ      CE2     CD2           0.00   0.0 0
+RC7 CONST_06       CE1     CD1     CG2     CD2          -0.00   0.0 0
+RC7 CONST_07       CE3     NE1     CD3     CG1          -0.00   0.0 0
+RC7 CONST_08       NE1     CE3     ND1     CG1           0.00   0.0 0
+RC7 CONST_09       NE1     CD3     CG1     ND1           0.00   0.0 0
+RC7 CONST_10       CD3     NE1     CE3     ND1           0.00   0.0 0
+RC7 CONST_11       CE3     ND1     CG1     CD3          -0.00   0.0 0
+RC7 CONST_12       C2      CA2     N2      C1           -0.06   0.0 0
+RC7 CONST_13       CA2     C2      N3      C1           -0.02   0.0 0
+RC7 CONST_14       N3      C2      CA2     N2            0.04   0.0 0
+RC7 CONST_15       C2      N3      C1      N2           -0.02   0.0 0
+RC7 CONST_16       N3      C1      N2      CA2           0.06   0.0 0
+RC7 CONST_17       CE1     CD1     CG2     CB2         173.40   0.0 0
+RC7 CONST_18       CE2     CD2     CG2     CB2        -173.40   0.0 0
+RC7 CONST_19       OH      CZ      CE1     CD1         178.38   0.0 0
+RC7 CONST_20       OH      CZ      CE2     CD2        -178.38   0.0 0
+RC7 CONST_21       NE1     CD3     CG1     CB1         175.38   0.0 0
+RC7 CONST_22       CE3     ND1     CG1     CB1        -175.38   0.0 0
+RC7 CONST_23       O2      C2      N3      C1         -179.98   0.0 0
+RC7 CONST_24       CG2     CB2     CA2     N2         -143.59   0.0 0
+RC7 CONST_25       CA3     N3      C1      N2         -179.28   0.0 0
+RC7 CONST_26       CA1     C1      N2      CA2         150.31   0.0 0
+RC7 CONST_27       CA3     N3      C2      CA2         179.24   0.0 0
+RC7 CONST_28       CG2     CB2     CA2     C2          -74.33   0.0 0
+RC7 CONST_29       CA1     C1      N3      C2         -150.28   0.0 0
+RC7 CONST_30       HE1     CE1     CD1     CG2        -178.10   0.0 0
+RC7 CONST_31       HE2     CE2     CD2     CG2         180.00   0.0 0
+RC7 CONST_32       HD2     CD2     CG2     CD1         180.00   0.0 0
+RC7 CONST_33       HD1     CD1     CG2     CD2        -180.00   0.0 0
+RC7 CONST_34      HNE1     NE1     CD3     CG1        -180.00   0.0 0
+RC7 CONST_35       HE3     CE3     ND1     CG1         180.00   0.0 0
+RC7 CONST_36       HD3     CD3     CG1     ND1         179.53   0.0 0
+RC7 CONST_37       CA3     N3      C2      O2           -0.73   0.0 0
+RC7 CONST_38       CA1     C1      N3      CA3          30.46   0.0 0
+RC7 CONST_39      HB21     CB2     CA2     N2          -59.52   0.0 0
+RC7 Var_01         CD1     CG2     CB2     CA2         161.25  30.0 2
+RC7 Var_02         CD2     CG2     CB2     CA2         -25.35  30.0 2
+RC7 Var_03         CG1     CB1     CA1     C1          110.38   0.0 2
+RC7 Var_04         C3      CA3     N3      C1          -63.24  30.0 3
+RC7 Var_05         CB1     CA1     C1      N2           13.61  30.0 2
+RC7 Var_06         C3      CA3     N3      C2          117.65  30.0 3
+RC7 Var_07         CB1     CA1     C1      N3          161.70  30.0 2
+RC7 Var_08         CD3     CG1     CB1     CA1          26.27  30.0 2
+RC7 Var_09         ND1     CG1     CB1     CA1        -159.16  30.0 2
+RC7 Var_10        HA31     CA3     N3      C1          176.76  30.0 3
+RC7 Var_11        HA32     CA3     N3      C1           56.77  30.0 3
+RC7 Var_12         HA1     CA1     C1      N2          128.87  30.0 2
+RC7 Var_13         HOH     OH      CZ      CE1          86.70  30.0 2
+RC7 Var_14        HB11     CB1     CG1     ND1        -140.00  30.0 1
+RC7 Var_15         O3      C3      CA3     N3          -17.48  30.0 3
+RC7 Var_16         OXT     C3      CA3     N3          165.49  30.0 3
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+RC7 plan-1     C1 0.020
+RC7 plan-1     N2 0.020
+RC7 plan-1    CA2 0.020
+RC7 plan-1     C2 0.020
+RC7 plan-1     O2 0.020
+RC7 plan-1     N3 0.020
+RC7 plan-1    CA3 0.020
+RC7 plan-1    CA1 0.020
+RC7 plan-1    CB2 0.020
+RC7 plan-1    CG2 0.020
+RC7 plan-1   HB21 0.020
+RC7 plan-2    CB1 0.020
+RC7 plan-2    CG1 0.020
+RC7 plan-2    ND1 0.020
+RC7 plan-2    CD3 0.020
+RC7 plan-2    NE1 0.020
+RC7 plan-2    CE3 0.020
+RC7 plan-2    HD3 0.020
+RC7 plan-2   HNE1 0.020
+RC7 plan-2    HE3 0.020
+RC7 plan-3    CB2 0.020
+RC7 plan-3    CG2 0.020
+RC7 plan-3    CD1 0.020
+RC7 plan-3    CD2 0.020
+RC7 plan-3    CE1 0.020
+RC7 plan-3    CE2 0.020
+RC7 plan-3     CZ 0.020
+RC7 plan-3     OH 0.020
+RC7 plan-3    HD1 0.020
+RC7 plan-3    HD2 0.020
+RC7 plan-3    HE1 0.020
+RC7 plan-3    HE2 0.020
+RC7 plan-4    CA3 0.020
+RC7 plan-4     C3 0.020
+RC7 plan-4     O3 0.020
+RC7 plan-4    OXT 0.020
+RC7 plan-5     C1 0.020
+RC7 plan-5    CA1 0.020
+RC7 plan-5    CB1 0.020
+RC7 plan-5    CG1 0.020
+RC7 plan-5    HA1 0.020
+RC7 plan-5   HB11 0.020
